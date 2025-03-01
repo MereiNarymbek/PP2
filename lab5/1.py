@@ -1,6 +1,6 @@
 import re
 x=str(input())
-y=re.search("^a.b*$" , x)
+y=re.search("^ab*$" , x)
 if y:
     print("YES")
 else:
