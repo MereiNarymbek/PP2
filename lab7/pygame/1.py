@@ -26,7 +26,7 @@ while running:
     minute_angle = - (minutes * 6)  
     second_angle = - (seconds * 6)   
     
-    rotated_right_hand = pygame.transform.rotate(hand_right, minute_angle)
+    rotated_right_hand = pygame.transform.rotate(hand_right, minute_angle) 
     rotated_left_hand = pygame.transform.rotate(hand_left, second_angle)
     
     rh_rect = rotated_right_hand.get_rect(center=(WIDTH // 2, HEIGHT // 2))
